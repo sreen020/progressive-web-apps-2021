@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: #051c2d;
+  padding: 0.7rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  max-width: min(100%, 45rem);
+}
+
+.games {
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+/* IMAGE CONTAINER  */
+.image-container {
+  background-color: #fff;
+  margin-bottom: 0.2rem;
+}
+.image-container img {
+  width: 100%;
+}
+
+.image-container h1 {
+  padding: 1rem;
+  color: #00477b;
+}
+
+/* MATCH CONTAINER */
+#match-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+.matchButton {
+  background-color: #fff;
+  border: none;
+  padding: 1.4rem;
+  width: 100%;
+  margin: 0.2rem 0;
+}
+
+/* OVERLAY */
+#overlay {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#overlay.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#overlay.show .overlay-container {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  width: 96%;
+  max-width: 40rem;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.overlay-header {
+  padding-bottom: 1rem;
+}
+
+.overlay-header button {
+  border: none;
+  background: none;
+  color: #00477b;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+.home-container,
+.visitor-container {
+  width: 50%;
+}
+
+.score-container h2 {
+  font-weight: 200;
+  min-height: 5rem;
+}
+
+.score-container h1 {
+  font-size: 3rem;
+  color: #00477b;
+}
+
+#visitor-title,
+#visitor-score {
+  text-align: right;
+}
+
+#visitor-score {
+  text-align: right;
+}
+
+.match-status {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  color: #00477b;
+}
+
+.matchButton {
+  display: flex;
+  align-items: center;
+}
+.matchButton h2 {
+  color: #00477b;
+}
+#match-season {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  font-size: 0.9rem;
+}
+
+.matchButton {
+  cursor: pointer;
+}
+
+.matchButton:hover {
+  background-color: #eaeaea;
+}

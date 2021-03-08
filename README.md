@@ -1,54 +1,93 @@
-# Progressive Web Apps @cmda-minor-web · 20-21
+## Description
 
-In this course we will convert the client side web application previously made Web App From Scratch into a server side rendered application. We also add functionalities based on the Service Worker and turn the application into a Progressive Web App. Ultimately we are going to implement a series of optimisations to improve the performance of the application.  
+Personally, I’m fascinated by sports. However I’ve never made a website or app about the thing I love… This is my time to shine! 
 
-## Learning goals
-- _You understand the difference between client side and server side rendering and you can apply server side rendering
-in your application_
-- _You understand how a Service Worker works and you can implement it in your application._
-- _You understand how the critical render path works and how you can optimize it for a better runtime and / or perceived performance._
+When I heard about this project I immediately started searching for APIs. I finally found a free NBA API. Within this API I get to fetch all sorts of data, I’ll show this data on the screen dynamically.
 
-[Rubric with learning goals](https://icthva.sharepoint.com/:x:/r/sites/FDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt/_layouts/15/Doc.aspx?sourcedoc=%7B276F53A7-2531-4006-8AD2-08C9A82D3A11%7D&file=PWA%202021%20Rubric.xlsx&action=edit&mobileredirect=true&wdPreviousSession=92686bea-446f-40e3-9303-33fa3f832b82&wdOrigin=TEAMS-ELECTRON.teams.undefined)
+This app will show the following data:
+- previous played games   
+- Current NBA Teams 
+- Players per team
 
-## Program
+**Screenshots app:** <br>
+<img src="https://github.com/sreen020/NBA-WEBAPP/blob/master/img/github-images/screenshot-app2.png" width="300">
+<img src="https://github.com/sreen020/NBA-WEBAPP/blob/master/img/github-images/screenshot-app.png" width="300">
 
-### Week 1 - Server Side Rendering 📡
+Getting interested? Take a look!
 
-Goal: Render web pages server side
-
-[Exercises](https://github.com/cmda-minor-web/progressive-web-apps-2021/blob/master/course/week-1.md)    
-[Server Side Rendering - slides Declan Rek](https://github.com/cmda-minor-web/progressive-web-apps-1920/blob/master/course/cmd-2021-server-side-rendering.pdf)  
-
-
-### Week 2 - Progressive Web App 🚀
-
-Goals: Convert application to a Progressive Web App
-
-[Exercises](https://github.com/cmda-minor-web/progressive-web-apps-2021/blob/master/course/week-2.md)  
-[Progressive Web Apps - slides Declan Rek](https://github.com/cmda-minor-web/progressive-web-apps-1920/blob/master/course/cmd-2020-progressive-web-apps.pdf)
+## Live link
+**For the best performance visit the app on your phone**<br>
+https://sreen020.github.io/NBA-WEBAPP/
 
 
-### Week 3 - Critical Rendering Path 📉 
+## Install
 
-Doel: Optimize the Critical Rendering Path   
-[Exercises](https://github.com/cmda-minor-web/progressive-web-apps-2021/blob/master/course/week-3.md)  
-[Critical Rendering Path - slides Declan Rek](https://github.com/cmda-minor-web/progressive-web-apps-1920/blob/master/course/cmd-2020-critical-rendering-path.pdf)
+**Clone folder**<br>
+Then you need to download this project and open it with your code editor. To do this, open your terminal with the correct path in which you want this repository. Example:
+
+cd/Desktop/projects/
+
+Then type the following line of code into your terminal:
+```
+git clone git@github.com:sreen020/web-app-from-scratch-2021.git
+```
+
+3. Start and run the code
+Go to the repository in the terminal and add the following line of code below:
+This will start a python server.
+
+```
+python -m SimpleHTTPServer 8000
+```
+Now you can open http://localhost:8000/ in your browser to view the web application.
+
+## API
+This API contains information about the most popular basketball league, the NBA. Within this API there is a lot of data. Data from each player, data from each team and data from each game. 
+
+This is a snipped of the JSON I get back from the API. This example shows how I recieve the game data.
+```
+0:{
+  "id":47179
+  "date":"2019-01-30T00:00:00.000Z"
+  "home_team": {
+    "id":2
+    "abbreviation":"BOS"
+    "city":"Boston"
+    "conference":"East"
+    "division":"Atlantic"
+    "full_name":"Boston Celtics"
+    "name":"Celtics"
+  }
+  "home_team_score":126
+  "period":4
+  "postseason":false
+  "season":2018
+  "status":"Final"
+  "time":" "
+  "visitor_team": {
+    "id":4
+    "abbreviation":"CHA"
+    "city":"Charlotte"
+    "conference":"East"
+    "division":"Southeast"
+    "full_name":"Charlotte Hornets"
+    "name":"Hornets"
+}
+  "visitor_team_score":94
+}
+```
+There are more APIs who can get this data but most of them aren’t free. This one is!
+To find out more about this API, read more on:
+https://rapidapi.com/theapiguy/api/free-nba/details
+
+## Diagrams
+
+Actor diagram:
+![Actor diagram](https://github.com/sreen020/NBA-WEBAPP/blob/master/img/github-images/actorDiagramNew.png)
+
+Interaction diagram:
+![Interaction diagram](https://github.com/sreen020/web-app-from-scratch-2021/blob/master/img/github-images/Interaction-diagram.png)
 
 
-<!-- Add a link to your live demo in Github Pages 🌐-->
 
-<!-- ☝️ replace this description with a description of your own work -->
 
-<!-- Add a nice image here at the end of the week, showing off your shiny frontend 📸 -->
-
-<!-- Maybe a table of contents here? 📚 -->
-
-<!-- How about a section that describes how to install this project? 🤓 -->
-
-<!-- ...but how does one use this project? What are its features 🤔 -->
-
-<!-- What external data source is featured in your project and what are its properties 🌠 -->
-
-<!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
-
-<!-- How about a license here? 📜 (or is it a licence?) 🤷 -->

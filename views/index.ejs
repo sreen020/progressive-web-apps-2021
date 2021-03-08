@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body>
+    <nav role="navigation"><%- include('./partials/header'); %></nav>
+    <main>
+      <section class="home active">
+        <div class="image-container">
+          <div>
+            <span></span>
+            <img
+              src="img/homepage-header.jpg"
+              alt="Header image of NBA players"
+            />
+          </div>
+
+          <h1>NBA DAILY NEWS</h1>
+        </div>
+        <div class="news-container first">
+          <article>
+            <h2>Anthony Davis to rest injured Achilles; no rupture</h2>
+            <img src="img/article-two.jpg" />
+            <p>
+              The Lakers' star underwent an MRI on Monday and will be
+              reevaluated when he returns to Los Angeles.
+            </p>
+
+            <p>
+              <strong>ANGELES (AP)</strong> — Forward Anthony Davis’ injured
+              Achilles tendon is not ruptured, and he will be reevaluated when
+              the Los Angeles Lakers return from their road trip.
+            </p>
+
+            <p>
+              The defending NBA champions made the announcement Monday after an
+              MRI exam for Davis, who is out indefinitely. According to Adrian
+              Wojnarowski of ESPN, Davis is expected to be reevaluated in 2-3
+              weeks.
+            </p>
+          </article>
+        </div>
+
+        <div class="news-container">
+          <article>
+            <h2>
+              Power Rankings, Week 9: Jazz jump Lakers for No. 1 spot; Suns
+              enter Top 5
+            </h2>
+            <img src="img/article-one.jpg" />
+            <p>
+              The Utah Jazz had been pretty healthy. Through Feb. 5, their top
+              nine guys had missed a total of eight games, four from Joe Ingles
+              and two each from Donovan Mitchell and Derrick Favors. That had
+              earned their 18-5 record at that point, but compared to other
+              teams, they had been lucky in regard to health.
+            </p>
+
+            <p>
+              Then they lost Mike Conley, the guy who, at the time, led the
+              league in on-off differential, with the Jazz having been 23.6
+              points per 100 possessions better with him on the floor (+17.7)
+              than they’d been with him off the floor (-5.9). And a hamstring
+              issue has had Conley out each of the last four games.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="games">
+        <div class="image-container">
+          <img src="img/header-img.jpg" alt="Header image of NBA players" />
+          <h1>Games played</h1>
+        </div>
+        <div id="match-container"></div>
+      </section>
+
+      <section class="teams">
+        <div class="image-container">
+          <img src="img/header-teams-img.jpg" alt="Header image" />
+          <h1>TEAMS</h1>
+        </div>
+        <div id="teams-container"></div>
+      </section>
+
+      <section id="specific-team-section">
+        <h1 id="team-title"></h1>
+        <div class="player-details">
+          <p>Player</p>
+          <p>Position</p>
+        </div>
+      </section>
+    </main>
+
+    <div id="overlay">
+      <div class="overlay-container">
+        <div class="overlay-header">
+          <button id="close-overlay-btn">Terug naar overzicht</button>
+        </div>
+        <div>
+          <p id="match-season"></p>
+          <p id="match-date"></p>
+          <div class="match-status">
+            <h4>Final</h4>
+          </div>
+          <div class="score-container">
+            <div class="home-container">
+              <h2 id="home-title">asad</h2>
+              <h1 id="home-score">12</h1>
+            </div>
+            <div class="visitor-container">
+              <h2 id="visitor-title">asd</h2>
+              <h1 id="visitor-score">23</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="loader">
+      <div class="spinner">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>
