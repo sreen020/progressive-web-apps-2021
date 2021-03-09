@@ -7,7 +7,7 @@ export default async function fetchPlayerData() {
   let allData = [];
   let morePagesAvailable = true;
   let currentPage = 0;
-  let totalPages = 15; // change this for more players note: app performance will be adjustd
+  let totalPages = 0; // change this for more players note: app performance will be adjustd
 
   loader("show");
 

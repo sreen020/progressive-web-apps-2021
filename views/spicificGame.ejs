@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <nav role="navigation"><%- include('./partials/header'); %></nav>
+
+  <body>
+    <h1>TEST</h1>
+
+    <h2>
+      <%- data.home_team.full_name %> VS <%- data.visitor_team.full_name %>
+    </h2>
+
+    <h1></h1>
+    <%- include('./partials/loader'); %>
+  </body>
+</html>
