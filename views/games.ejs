@@ -1,18 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <%- include('./partials/head'); %>
-  </head>
+  <%- include('./partials/head'); %>
   <nav role="navigation"><%- include('./partials/header'); %></nav>
 
   <body>
-    <h1>TEST</h1>
-
-    <h1>Posts</h1>
+    <h1><%- title %></h1>
 
     <% data.data.forEach(function(gameData) { %>
-    <a href="/game/<%- gameData.id %>">
-      <div>
+    <a href="/games/<%- gameData.id %>">
+      <div class="matchButton">
         <h4>
           <%- gameData.home_team.full_name + " VS " +
           gameData.visitor_team.full_name%>
