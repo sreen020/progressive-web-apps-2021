@@ -39,3 +39,7 @@ router.get("/games/:id", (req, res) => {
       })
     );
 });
+
+router.get("/offline", (req, res) => {
+  res.render("offline.ejs");
+});

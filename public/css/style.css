@@ -50,14 +50,24 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 0;
+  width: 100%;
 }
 
 .matchButton {
-  background-color: #fff;
+  display: flex;
+  align-items: center;
   border: none;
   padding: 1.4rem;
   width: 100%;
-  margin: 0.2rem 0;
+  cursor: pointer;
+}
+#match-container a {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+}
+#match-container a:nth-child(even) {
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
 }
 
 /* OVERLAY */
@@ -132,10 +142,6 @@ main {
   color: #00477b;
 }
 
-.matchButton {
-  display: flex;
-  align-items: center;
-}
 .matchButton h2 {
   color: #00477b;
 }
@@ -148,11 +154,11 @@ main {
   display: flex;
   flex-direction: column;
   padding-left: 2rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
-.matchButton {
-  cursor: pointer;
+.teamContainer h4 {
+  font-weight: 300;
 }
 
 .matchButton:hover {

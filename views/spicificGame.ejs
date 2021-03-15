@@ -4,13 +4,43 @@
   <nav role="navigation"><%- include('./partials/header'); %></nav>
 
   <body>
-    <h1>TEST</h1>
-
-    <h2>
-      <%- data.home_team.full_name %> VS <%- data.visitor_team.full_name %>
-    </h2>
+    <section class="specific-game-section">
+      <section class="specific-game-header">
+        <div class="team-names">
+          <h3><%- data.home_team.name %></h3>
+          <p>VS</p>
+          <h3><%- data.visitor_team.name %></h3>
+        </div>
+        <div class="scores">
+          <h2><%- data.home_team_score %></h2>
+          <h2><%- data.visitor_team_score %></h2>
+        </div>
+      </section>
+      <section class="specific-game-content">
+        <div class="grid-container">
+          <p class="home-team-info"><%- data.home_team.full_name %></p>
+          <p class="info-title">Full name</p>
+          <p class="away-team-info"><%- data.visitor_team.full_name %></p>
+        </div>
+        <div class="grid-container">
+          <p class="home-team-info"><%- data.home_team.city %></p>
+          <p class="info-title">City</p>
+          <p class="away-team-info"><%- data.visitor_team.city %></p>
+        </div>
+        <div class="grid-container">
+          <p class="home-team-info"><%- data.home_team.conference %></p>
+          <p class="info-title">Conference</p>
+          <p class="away-team-info"><%- data.visitor_team.conference %></p>
+        </div>
+        <div class="grid-container">
+          <p class="home-team-info"><%- data.home_team.division %></p>
+          <p class="info-title">Division</p>
+          <p class="away-team-info"><%- data.visitor_team.division %></p>
+        </div>
+      </section>
+    </section>
 
     <h1></h1>
-    <%- include('./partials/loader'); %>
+    <%- include('./partials/loader'); %> <%- include('./partials/footer'); %>
   </body>
 </html>

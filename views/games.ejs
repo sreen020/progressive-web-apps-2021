@@ -4,21 +4,25 @@
   <nav role="navigation"><%- include('./partials/header'); %></nav>
 
   <body>
-    <h1><%- title %></h1>
+    <div class="image-container">
+      <img src="img/header-img.jpg" alt="Header image of NBA players" />
+      <h1><%- title %></h1>
+    </div>
 
-    <% data.data.forEach(function(gameData) { %>
-    <a href="/games/<%- gameData.id %>">
-      <div class="matchButton">
-        <h4>
-          <%- gameData.home_team.full_name + " VS " +
-          gameData.visitor_team.full_name%>
-        </h4>
-        <p><%- gameData.date %></p>
-      </div>
-    </a>
-    <% }) %>
+    <div id="match-container">
+      <% data.data.forEach(function(gameData) { %>
+      <a href="/games/<%- gameData.id %>">
+        <div class="matchButton">
+          <h2>VS</h2>
+          <div class="teamContainer">
+            <h4><%- gameData.home_team.full_name %></h4>
+            <h4><%- gameData.visitor_team.full_name %></h4>
+          </div>
+        </div>
+      </a>
+      <% }) %>
+    </div>
 
-    <h1></h1>
-    <%- include('./partials/loader'); %>
+    <%- include('./partials/loader'); %> <%- include('./partials/footer'); %>
   </body>
 </html>

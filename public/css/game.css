@@ -1,0 +1,57 @@
+.specific-game-section {
+  width: 100%;
+}
+
+.specific-game-header {
+  background-color: #002f51;
+  padding: 2rem;
+  color: #fff;
+}
+
+.specific-game-header h3 {
+  font-size: 1.7rem;
+  padding-bottom: 0.5rem;
+}
+.specific-game-header h2 {
+  font-size: 2.4rem;
+}
+
+.team-names p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.team-names,
+.scores {
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+}
+
+.grid-container:nth-child(even) {
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.grid-container p {
+  align-self: center;
+}
+.home-team-info {
+  font-size: 1rem;
+}
+.away-team-info {
+  font-size: 1rem;
+  text-align: right;
+}
+.info-title {
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 0 0.7rem;
+  font-weight: 700;
+}
