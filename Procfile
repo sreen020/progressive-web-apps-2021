@@ -1,1 +1,2 @@
-web: node scripts/css-build.js && node app.js
+web: node scripts/css-build.js
+web: node app.js
