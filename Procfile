@@ -1,1 +1,2 @@
-web: node app.js && node scripts/css-build.js
+web: "node app.js"
+postinstall : "node scripts/css-build.js"
