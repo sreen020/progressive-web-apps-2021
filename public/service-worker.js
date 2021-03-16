@@ -1,8 +1,7 @@
 const staticCacheName = "site-static";
 const assets = [
   "/",
-  "/index.html",
-  "/offline/",
+  "/offline",
   "/css/game.css",
   "/css/home.css",
   "/css/loader.css",
@@ -20,18 +19,12 @@ const assets = [
 self.addEventListener("install", (event) => {
   console.log("install");
 
-  // event.waitUntil(
-  //   caches.open(staticCacheName).then((cache) => {
-  //     console.log("test");
-  //     cache.addAll(assets);
-  //   })
-  // );
-
   // pre-cache offline page and update cache automaticly
   event.waitUntil(
-    caches.open("my-cache").then((cache) => {
-      return cache.addAll(assets).then(() => self.skipWaiting());
-    })
+    caches
+      .open("my-cache")
+      .then((cache) => cache.addAll(assets))
+      .then(self.skipWaiting())
   );
 });
 
@@ -40,12 +33,20 @@ self.addEventListener("activate", () => {
   console.log("active");
 });
 
+// creates fetch and checks if request == cached assets
+// If not it continues the regular fetch
+// when offline and page is not cached show the offline(cached) page
 self.addEventListener("fetch", (event) => {
-  console.log("fetch event for: ", event.request.url);
-
   event.respondWith(
-    fetch(event.request).catch((error) => {
-      return caches.open("my-cache").then((cache) => cache.match("/offline/"));
+    caches.match(event.request).then((cacheResponse) => {
+      return (
+        cacheResponse ||
+        fetch(event.request).catch((error) => {
+          return caches
+            .open("my-cache")
+            .then((cache) => cache.match("/offline"));
+        })
+      );
     })
   );
 });
