@@ -1,0 +1,1 @@
+web: node app.js && node scripts/css-build.js
