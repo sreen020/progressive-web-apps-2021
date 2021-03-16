@@ -16,6 +16,4 @@ app.set("view engine", "ejs");
 app.use("/", router);
 
 // Start server
-app.listen(process.env.PORT, () =>
-  console.log("Listening to port " + process.env.PORT)
-);
+app.listen(port, () => console.log("Listening to port " + port));
