@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node app.js",
     "watch": "nodemon app.js",
-    "build": "node scripts/css-build.js"
+    "build": "node scripts/css-build.js",
+    "watch:css": "chokidar \"src/css/*.css\" --c \"npm run build\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0"
   }
 }

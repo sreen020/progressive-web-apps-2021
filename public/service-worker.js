@@ -1,4 +1,3 @@
-const staticCacheName = "site-static";
 const assets = [
   "/",
   "/offline",
