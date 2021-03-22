@@ -3,7 +3,11 @@ import express from "express";
 const app = express();
 const port = process.env.PORT || 3000;
 
+import compression from "compression";
+
 import { router } from "./routes/router.js";
+
+app.use(compression());
 
 // static files
 app.use(express.static("public"));

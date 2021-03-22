@@ -37,6 +37,7 @@ main {
 }
 .image-container img {
   width: 100%;
+  height: auto;
 }
 
 .image-container h1 {

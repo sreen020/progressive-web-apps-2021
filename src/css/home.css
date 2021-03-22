@@ -33,6 +33,7 @@
 
 .news-container article img {
   width: 100%;
+  height: auto;
   padding-bottom: 2rem;
 }
 
