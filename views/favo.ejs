@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#002f51" />
+    <link rel="apple-touch-icon" href="/public/img/nba-logo.png" />
+    <link rel="icon" href="./img/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/index.css" />
+    <script type="module" defer src="/js/bundle-min.js"></script>
+
+    <title>NBA WebApp</title>
+    <link rel="manifest" href="/manifest.json" />
+  </head>
+
+  <nav role="navigation"><%- include('./partials/header'); %></nav>
+
+  <body>
+    <section class="specific-game-section">
+      <section class="specific-game-header">
+        <div class="search-container">
+          <label for="favoTeam"
+            >Choose your favorite team to their previous game:</label
+          >
+          <select id="favoTeam">
+            <option selected="selected" disabled>None</option>
+            <% data.data.forEach(function(gameData) { %>
+            <option value="<%- gameData.id %>">
+              <%- gameData.home_team.full_name %>
+            </option>
+            <% }) %>
+          </select>
+        </div>
+
+        <div class="team-names">
+          <h3 id="name-home"></h3>
+          <p>VS</p>
+          <h3 id="name-visitors"></h3>
+        </div>
+        <div class="scores">
+          <h2 id="score-home"></h2>
+          <h2 id="score-visitors"></h2>
+        </div>
+      </section>
+      <section class="specific-game-content">
+        <div class="grid-container">
+          <p id="fullname-home" class="home-team-info"></p>
+          <p class="info-title">Full name</p>
+          <p id="fullname-visitors" class="away-team-info"></p>
+        </div>
+        <div class="grid-container">
+          <p id="city-home" class="home-team-info"></p>
+          <p class="info-title">City</p>
+          <p id="city-visitors" class="away-team-info"></p>
+        </div>
+        <div class="grid-container">
+          <p id="conference-home" class="home-team-info"></p>
+          <p class="info-title">Conference</p>
+          <p id="conference-visitors" class="away-team-info"></p>
+        </div>
+        <div class="grid-container">
+          <p id="division-home" class="home-team-info"></p>
+          <p class="info-title">Division</p>
+          <p id="division-visitors" class="away-team-info"></p>
+        </div>
+      </section>
+    </section>
+
+    <h1></h1>
+    <%- include('./partials/loader'); %> <%- include('./partials/footer'); %>
+  </body>
+</html>

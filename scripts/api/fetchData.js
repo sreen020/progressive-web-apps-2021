@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-export default function fetchData(req, res) {
+export default function fetchData(req, res, renderView) {
   if (req.params.id) {
     fetch(`https://free-nba.p.rapidapi.com/games/${req.params.id}`, {
       headers: {
@@ -26,7 +26,7 @@ export default function fetchData(req, res) {
     })
       .then((res) => res.json())
       .then((json) =>
-        res.render("games.ejs", {
+        res.render(renderView, {
           title: "Games",
           data: json,
         })

@@ -55,3 +55,20 @@
   padding: 0 0.7rem;
   font-weight: 700;
 }
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-container select {
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 0.6rem 0;
+  margin: 0.6rem 0rem 2rem 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+}

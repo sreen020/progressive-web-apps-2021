@@ -4,6 +4,7 @@ const assets = [
   "/",
   "/offline",
   "/css/index.css",
+  // "/js/bundle-min.js",
   "/img/article-one.jpg",
   "/img/article-two.jpg",
   "/img/header-img.jpg",
