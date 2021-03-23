@@ -4,15 +4,6 @@
   margin: 0;
 }
 
-nav {
-  background-color: #051c2d;
-  padding: 0.8rem 2rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 body {
   background-repeat: no-repeat;
   font-family: "Roboto", sans-serif;
@@ -23,26 +14,11 @@ body {
 
 main {
   width: 100%;
-  max-width: min(100%, 45rem);
+  /* max-width: min(100%, 45rem); */
 }
 
 .games {
   background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
-}
-
-/* IMAGE CONTAINER  */
-.image-container {
-  background-color: #fff;
-  margin-bottom: 0.2rem;
-}
-.image-container img {
-  width: 100%;
-  height: auto;
-}
-
-.image-container h1 {
-  padding: 1rem;
-  color: #00477b;
 }
 
 /* MATCH CONTAINER */

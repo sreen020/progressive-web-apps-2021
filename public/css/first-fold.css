@@ -1,0 +1,62 @@
+nav {
+  background-color: #051c2d;
+  padding: 0.8rem 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-buttons ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-buttons a {
+  text-decoration: none;
+}
+
+.nav-buttons a {
+  padding-left: 2rem;
+  color: #fff;
+}
+
+/* IMAGE CONTAINER  */
+.image-container {
+  background-color: #fff;
+  margin-bottom: 0.2rem;
+  width: 100%;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-container h1 {
+  padding: 1rem;
+  color: #00477b;
+}
+
+/* SPECIFIC GAME SECTION  */
+.specific-game-section {
+  width: 100%;
+}
+
+.specific-game-header {
+  background-color: #002f51;
+  padding: 2rem;
+  color: #fff;
+}
+
+.specific-game-header h3 {
+  font-size: 1.7rem;
+  padding-bottom: 0.5rem;
+}
+.specific-game-header h2 {
+  font-size: 2.4rem;
+}
+
+.team-names p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
