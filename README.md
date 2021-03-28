@@ -29,17 +29,22 @@ cd/Desktop/projects/
 
 Then type the following line of code into your terminal:
 ```
-git clone git@github.com:sreen020/web-app-from-scratch-2021.git
+git clone git@github.com:sreen020/progressive-web-apps-2021.git
 ```
 
-3. Start and run the code
+3. Installation
 Go to the repository in the terminal and add the following line of code below:
-This will start a python server.
+This wil install al packages and middleware
 
 ```
-python -m SimpleHTTPServer 8000
+npm install
 ```
-Now you can open http://localhost:8000/ in your browser to view the web application.
+
+4. Start server and run the code
+```
+npm run watch
+```
+Now you can open http://localhost:3000/ in your browser to view the web application.
 
 ## API
 This API contains information about the most popular basketball league, the NBA. Within this API there is a lot of data. Data from each player, data from each team and data from each game. 
