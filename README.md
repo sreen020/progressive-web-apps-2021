@@ -1,6 +1,6 @@
 ## Description
 
-In my previous repository I made a vanilla javascript single-page application. In this project is rebuild this application to a progressive web app. A PWA is an application which can be accessed without internet connection (only if the user visited this website before). A PWA can also be used to send push-notifications. By making this a PWA the user-feeling of this app has gotten much more an app feeling.
+In my <a href="https://github.com/sreen020/NBA-WEBAPP">previous repository</a> I made a vanilla javascript single-page application. In this project is rebuild this application to a progressive web app. A PWA is an application which can be accessed without internet connection (only if the user visited this website before). A PWA can also be used to send push-notifications. By making this a PWA the user-feeling of this app has gotten much more an app feeling.
 
 ## Jobstory
 I (user) want to have an overview of all played games. I like to talk about game results with other people. When i’m in a metro or plane I don’t have internet connection to see the results, I want to select which games or teams I want to see without internet.
@@ -14,7 +14,7 @@ Getting interested? Take a look!
 
 ## Live link
 **For the best performance visit the app on your phone**<br>
-https://sreen020.github.io/NBA-WEBAPP/
+https://nba-pwa-sreen.herokuapp.com/
 
 ## Install
 
