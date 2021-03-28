@@ -1,3 +1,7 @@
+// When the user clicks their favorite team the data of that specific team wille be fetched. 
+// This function will fill the data into a text element. 
+// each time the user presses a team, this function will be called
+console.log("test");
 function fillFilteredData(data) {
   const nameHome = document.getElementById("name-home");
   const nameVisitors = document.getElementById("name-visitors");
@@ -36,9 +40,9 @@ function fillFilteredData(data) {
   divisionVisitors.innerText = data.visitor_team.division;
 }
 
-// import fetchSpecificTeamData from "./filterData.js";
 filterTeam();
 
+// each time the user changes the select option there will be a fetch called for that specific team
 function filterTeam() {
   const form = document.getElementById("favoTeam");
 
@@ -48,7 +52,7 @@ function filterTeam() {
   });
 }
 
-// import fillFilteredData from "./fillData.js";
+// This function will fetch the data of a specific team
 
 function fetchSpecificTeamData(value) {
   fetch(`https://free-nba.p.rapidapi.com/games/${value}`, {

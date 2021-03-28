@@ -1,6 +1,6 @@
-// import fetchSpecificTeamData from "./filterData.js";
 filterTeam();
 
+// each time the user changes the select option there will be a fetch called for that specific team
 function filterTeam() {
   const form = document.getElementById("favoTeam");
 

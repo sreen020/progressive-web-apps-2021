@@ -1,5 +1,6 @@
 import fetch from "node-fetch";
 
+// When a specific game is asked fetch the data of that game only else fetch ALL games
 export default function fetchData(req, res, renderView) {
   if (req.params.id) {
     fetch(`https://free-nba.p.rapidapi.com/games/${req.params.id}`, {

@@ -3,8 +3,6 @@ export const router = express.Router();
 import fetch from "node-fetch";
 import fetchData from "./../scripts/api/fetchData.js";
 
-// import filter from "../src/js/filter.js";
-
 router.get("/", (req, res) => {
   res.render("index.ejs");
 });

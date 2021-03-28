@@ -1,4 +1,4 @@
-// import fillFilteredData from "./fillData.js";
+// This function will fetch the data of a specific team
 
 function fetchSpecificTeamData(value) {
   fetch(`https://free-nba.p.rapidapi.com/games/${value}`, {

@@ -4,6 +4,6 @@ import minify from "gulp-minify";
 
 gulp
   .src(["./src/js/*.js"])
-  .pipe(concat("bundle.js"))
   .pipe(minify())
+  .pipe(concat("bundle.js"))
   .pipe(gulp.dest("./public/js"));

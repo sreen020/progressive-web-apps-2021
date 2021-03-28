@@ -1,3 +1,7 @@
+// When the user clicks their favorite team the data of that specific team wille be fetched. 
+// This function will fill the data into a text element. 
+// each time the user presses a team, this function will be called
+
 function fillFilteredData(data) {
   const nameHome = document.getElementById("name-home");
   const nameVisitors = document.getElementById("name-visitors");

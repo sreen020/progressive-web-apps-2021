@@ -1,15 +1,15 @@
 const staticCacheName = "site-static-v1";
 const dynamicCacheName = "site-dynamic-v1";
+
+// These assets get pre-rendered
 const assets = [
   "/",
   "/offline",
   "/css/index.css",
-  // "/js/bundle-min.js",
+  "/css/first-fold.css",
   "/img/article-one.jpg",
   "/img/article-two.jpg",
-  "/img/header-img.jpg",
   "/img/homepage-header.jpg",
-  "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap",
 ];
 
 // installed event
