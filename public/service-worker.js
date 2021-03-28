@@ -9,12 +9,11 @@ const assets = [
   "/css/first-fold.css",
   "/img/article-one.jpg",
   "/img/article-two.jpg",
-  "/img/homepage-header.jpg",
+  // "/img/homepage-header.jpg",
 ];
 
 // installed event
 self.addEventListener("install", (event) => {
-  console.log("install");
 
   // pre-cache offline page and update cache automaticly
   event.waitUntil(
