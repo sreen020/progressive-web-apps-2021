@@ -1,19 +1,20 @@
 ## Description
 
-In my previous repository I made a vanilla javascript single-page application. In this project is rebuild this application to a progressive web app. A PWA is an application which can be accessed without internet connection (only if the user visited this website before). A PWA can also be used to send push-notifications. By making this a PWA the user-feeling of this app has gotten much more an app feeling.
+In my <a href="https://github.com/sreen020/NBA-WEBAPP" target="_blank">previous repository</a> I made a vanilla javascript single-page application. In this project is rebuild this application to a progressive web app. A PWA is an application which can be accessed without internet connection (only if the user visited this website before). A PWA can also be used to send push-notifications. By making this a PWA the user-feeling of this app has gotten much more an app feeling.
 
 ## Jobstory
 I (user) want to have an overview of all played games. I like to talk about game results with other people. When i’m in a metro or plane I don’t have internet connection to see the results, I want to select which games or teams I want to see without internet.
 
 **Screenshots app:** <br>
-<img src="https://github.com/sreen020/NBA-WEBAPP/blob/master/img/github-images/screenshot-app2.png" width="300">
-<img src="https://github.com/sreen020/NBA-WEBAPP/blob/master/img/github-images/screenshot-app.png" width="300">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-games.png" width="300">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-game.png" width="300">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-favo.png" width="300">
 
 Getting interested? Take a look!
 
 ## Live link
 **For the best performance visit the app on your phone**<br>
-https://sreen020.github.io/NBA-WEBAPP/
+https://nba-pwa-sreen.herokuapp.com/
 
 ## Install
 
@@ -51,7 +52,8 @@ Now you can open http://localhost:3000/ in your browser to view the web applicat
 
 ## Folder structure
 
-SCREENSHOT
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/folder.png" width="300">
+
 
 ## API
 This API contains information about the most popular basketball league, the NBA. Within this API there is a lot of data. Data from each player, data from each team and data from each game. 
@@ -105,6 +107,10 @@ If I had a little more time I would have build this. :(
 
 **Notifications**
 - Right now, there is not a good reason to use notifications. Maybe in the future there is… I would like to work with things like web sockets.
+
+**Using image resizing tools (Sharp)** 
+The sharp package is a good choice for automating image resizing (for example, generating multiple sizes of thumbnails for all the videos on your website). It is fast and easily integrated with build scripts and tools. On the other hand, ImageMagick is convenient for one-off image resizing because it is used entirely from the command line.
+
 
 
 
