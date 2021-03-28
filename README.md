@@ -108,5 +108,9 @@ If I had a little more time I would have build this. :(
 **Notifications**
 - Right now, there is not a good reason to use notifications. Maybe in the future there is… I would like to work with things like web sockets.
 
+**Using image resizing tools (Sharp)** 
+The sharp package is a good choice for automating image resizing (for example, generating multiple sizes of thumbnails for all the videos on your website). It is fast and easily integrated with build scripts and tools. On the other hand, ImageMagick is convenient for one-off image resizing because it is used entirely from the command line.
+
+
 
 
