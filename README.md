@@ -6,8 +6,9 @@ In my previous repository I made a vanilla javascript single-page application. I
 I (user) want to have an overview of all played games. I like to talk about game results with other people. When i’m in a metro or plane I don’t have internet connection to see the results, I want to select which games or teams I want to see without internet.
 
 **Screenshots app:** <br>
-<img src="https://github.com/sreen020/NBA-WEBAPP/blob/master/img/github-images/screenshot-app2.png" width="300">
-<img src="https://github.com/sreen020/NBA-WEBAPP/blob/master/img/github-images/screenshot-app.png" width="300">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-games.png" width="300">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-game.png" width="300">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-favo.png" width="300">
 
 Getting interested? Take a look!
 
@@ -51,7 +52,8 @@ Now you can open http://localhost:3000/ in your browser to view the web applicat
 
 ## Folder structure
 
-SCREENSHOT
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/folder.png" width="300">
+
 
 ## API
 This API contains information about the most popular basketball league, the NBA. Within this API there is a lot of data. Data from each player, data from each team and data from each game. 
