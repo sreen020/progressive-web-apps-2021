@@ -94,6 +94,11 @@ There are more APIs who can get this data but most of them aren’t free. This o
 To find out more about this API, read more on:
 https://rapidapi.com/theapiguy/api/free-nba/details
 
+## Testing my application
+
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/lighthouse.png" width="300">
+
+
 ## Future features
 
 **Click to cache**
