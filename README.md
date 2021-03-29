@@ -96,7 +96,11 @@ https://rapidapi.com/theapiguy/api/free-nba/details
 
 ## Testing my application
 
+**Lighthouse test** <br>
 <img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/lighthouse.png" width="300">
+
+**WebPageTest** <br>
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/webpagetest-result.png" width="300">
 
 **Using image resizing tools (Sharp)** <br>
 The sharp package is a good choice for automating image resizing (for example, generating multiple sizes of thumbnails for all the videos on your website). It is fast and easily integrated with build scripts and tools. On the other hand, ImageMagick is convenient for one-off image resizing because it is used entirely from the command line.
