@@ -139,11 +139,15 @@ Right now, when the user clicks on a page this page will be cached for offline u
 - Let the user click a heart icon to like a game, the liked games will be cached 
 If I had a little more time I would have build this. :(
 
+**Offline page**
+Instead of showing a regular 404 / offline page I want to view the user a list of (pre-cached and by them cached) pages. These are the pages are accessible offline.
+
 **Live stats**
 - Within this API I’m not able to collect current / live data. There are some API’s which can. It would make this app a lot better if this was build-in.
 
 **Notifications**
 - Right now, there is not a good reason to use notifications. Maybe in the future there is… I would like to work with things like web sockets.
+
 
 
 
