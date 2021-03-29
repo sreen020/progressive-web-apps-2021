@@ -97,7 +97,7 @@ https://rapidapi.com/theapiguy/api/free-nba/details
 ## Testing my application
 
 **Lighthouse test** <br>
-<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/lighthouse.png" width="700">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/lighthouse.png" width="500">
 
 **WebPageTest** <br>
 <img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/webpagetest-result.png" width="700">
