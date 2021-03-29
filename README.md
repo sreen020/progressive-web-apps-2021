@@ -104,6 +104,8 @@ The sharp package is a good choice for automating image resizing (for example, g
 
 Due the large images is the performance 94. For now this is okay but in future projects I want to get the 100!
 
+**Compression test** <br>
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/compression-test.png" width="500">
 
 **WebPageTest** <br>
 <img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/webpagetest-result.png" width="700">
