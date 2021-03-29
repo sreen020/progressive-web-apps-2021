@@ -98,6 +98,10 @@ https://rapidapi.com/theapiguy/api/free-nba/details
 
 <img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/lighthouse.png" width="300">
 
+**Using image resizing tools (Sharp)** 
+The sharp package is a good choice for automating image resizing (for example, generating multiple sizes of thumbnails for all the videos on your website). It is fast and easily integrated with build scripts and tools. On the other hand, ImageMagick is convenient for one-off image resizing because it is used entirely from the command line.
+
+Due the large images is the performance 94. For now this is okay but in future projects I want to get the 100!
 
 ## Future features
 
@@ -113,8 +117,6 @@ If I had a little more time I would have build this. :(
 **Notifications**
 - Right now, there is not a good reason to use notifications. Maybe in the future there is… I would like to work with things like web sockets.
 
-**Using image resizing tools (Sharp)** 
-The sharp package is a good choice for automating image resizing (for example, generating multiple sizes of thumbnails for all the videos on your website). It is fast and easily integrated with build scripts and tools. On the other hand, ImageMagick is convenient for one-off image resizing because it is used entirely from the command line.
 
 
 
