@@ -126,7 +126,7 @@ On <a href="https://web.dev/cls/">this link</a> they say a good CLS score is und
 
 ## Future features
 
-**Click to cache**
+**Click to cache** <br>
 Right now, when the user clicks on a page this page will be cached for offline usage. The next step is to let the user choose what and when to cache. Examples:
 - Let the user choose their favorite team and cache all games of that team
 - Let the user click a heart icon to like a game, the liked games will be cached 
