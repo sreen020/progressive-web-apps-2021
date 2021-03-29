@@ -27,6 +27,7 @@ self.addEventListener("install", (event) => {
 // https://www.youtube.com/watch?v=g9LfyCZjeKI&ab_channel=TheNetNinja
 // activate event
 // checks for new cache, if there is new version it will remove old version
+// keys == names of the caches
 self.addEventListener("activate", (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {

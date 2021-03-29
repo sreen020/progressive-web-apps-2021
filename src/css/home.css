@@ -43,3 +43,33 @@
   font-weight: 300;
   letter-spacing: 0.1px;
 }
+
+/* OFFLINE  */
+.offline-body {
+  background-color: #002f51;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.offline-section {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+  align-items: center;
+
+}
+
+.offline-section h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.offline-section h3 {
+  font-weight: 300;
+  padding-bottom: 3rem;
+}
+
+.offline-section a {
+  color: white;
+}

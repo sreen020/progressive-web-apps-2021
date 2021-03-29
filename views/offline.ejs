@@ -4,21 +4,13 @@
 
   <nav role="navigation"><%- include('./partials/header'); %></nav>
 
-  <body>
-    <h1>OOOPS</h1>
-    <h3>Currently you cannot view this page offline</h3>
-    <a href="/">GO TO HOMEPAGE</a>
+  <body class="offline-body">
+    <section class="offline-section">
+      <h1>OOOPS</h1>
+      <h3>Currently you cannot view this page offline</h3>
+      <a href="/">GO TO HOMEPAGE</a>
+    </section>
 
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", () => {
-          navigator.serviceWorker
-            .register("/service-worker.js")
-            .then((registration) => {
-              return registration.update();
-            });
-        });
-      }
-    </script>
+  <%- include('./partials/footer'); %>
   </body>
 </html>

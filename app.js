@@ -7,6 +7,7 @@ import compression from "compression";
 
 import { router } from "./routes/router.js";
 
+// GZIP
 app.use(compression());
 
 // static files
