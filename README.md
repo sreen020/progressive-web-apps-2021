@@ -126,7 +126,7 @@ The Total Blocking Time (TBT) metric measures the total amount of time between F
 **Cumulative Layout Shift - 0,51** <br>
 CLS measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page.
 
-On <a href="https://web.dev/cls/">this link</a> they say a good CLS score is under the 0.1. Mine is 0.5 so this is not good at all. Due lack of time i did not do good research in this topic but in future projects i definitely will!
+In <a href="https://web.dev/cls/">this article</a> they talk about a good CLS score when it's under the 0.1. Mine is 0.5 so this is not good at all. Due lack of time i did not do good research in this topic but in future projects i definitely will!
 
 <a href="https://googlechrome.github.io/lighthouse/scorecalc/#FCP=1270&SI=1419&LCP=2339&TTI=1596&TBT=50&CLS=0.51&FMP=1382&FCI=1399&device=mobile&version=7"> Link to my test report </a>
 
