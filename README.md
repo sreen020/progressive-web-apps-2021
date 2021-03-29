@@ -98,27 +98,27 @@ https://rapidapi.com/theapiguy/api/free-nba/details
 
 <img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/lighthouse.png" width="300">
 
-**Using image resizing tools (Sharp)** 
+**Using image resizing tools (Sharp)** <br>
 The sharp package is a good choice for automating image resizing (for example, generating multiple sizes of thumbnails for all the videos on your website). It is fast and easily integrated with build scripts and tools. On the other hand, ImageMagick is convenient for one-off image resizing because it is used entirely from the command line.
 
 Due the large images is the performance 94. For now this is okay but in future projects I want to get the 100!
 
-**First Contentful Paint - 1,4s**
+**First Contentful Paint - 1,4s** <br>
 First Contentful Paint (FCP) is when the browser renders the first bit of content from the DOM, providing the first feedback to the user that the page is actually loading. The question "Is it happening?" is "yes" when the first contentful paint completes.
 
-**Speed Index - 1,4 s**
+**Speed Index - 1,4 s** <br>
 Speed Index measures how quickly content is visually displayed during page load. Lighthouse first captures a video of the page loading in the browser and computes the visual progression between frames.
 
-**Largest Contentful Paint - 2,3s**
+**Largest Contentful Paint - 2,3s** <br>
 Largest Contentful Paint (LCP) is a Core Web Vitals metric and measures when the largest content element in the viewport becomes visible. It can be used to determine when the main content of the page has finished rendering on the screen.
 
-**Time to Interactive - 1,6 s**
+**Time to Interactive - 1,6 s** <br>
 TTI measures how long it takes a page to become fully interactive. A page is considered fully interactive when the page displays useful content, which is measured by the First Contentful Paint and event handlers are registered for most visible page elements.
 
-**Total Blocking Time - 50 ms**
+**Total Blocking Time - 50 ms** <br>
 The Total Blocking Time (TBT) metric measures the total amount of time between First Contentful Paint (FCP) and Time to Interactive (TTI) where the main thread was blocked for long enough to prevent input responsiveness.
 
-**Cumulative Layout Shift - 0,51**
+**Cumulative Layout Shift - 0,51** <br>
 CLS measures the sum total of all individual layout shift scores for every unexpected layout shift that occurs during the entire lifespan of the page.
 
 On <a href="https://web.dev/cls/">this link</a> they say a good CLS score is under the 0.1. Mine is 0.5 so this is not good at all. Due lack of time i did not do good research in this topic but in future projects i definitely will!
