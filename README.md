@@ -99,13 +99,14 @@ https://rapidapi.com/theapiguy/api/free-nba/details
 **Lighthouse test** <br>
 <img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/lighthouse.png" width="500">
 
-**WebPageTest** <br>
-<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/webpagetest-result.png" width="700">
-
 **Using image resizing tools (Sharp)** <br>
 The sharp package is a good choice for automating image resizing (for example, generating multiple sizes of thumbnails for all the videos on your website). It is fast and easily integrated with build scripts and tools. On the other hand, ImageMagick is convenient for one-off image resizing because it is used entirely from the command line.
 
 Due the large images is the performance 94. For now this is okay but in future projects I want to get the 100!
+
+
+**WebPageTest** <br>
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/webpagetest-result.png" width="700">
 
 **First Contentful Paint - 1,4s** <br>
 First Contentful Paint (FCP) is when the browser renders the first bit of content from the DOM, providing the first feedback to the user that the page is actually loading. The question "Is it happening?" is "yes" when the first contentful paint completes.
