@@ -55,7 +55,7 @@
 .offline-section {
   display: flex;
   flex-direction: column;
-  padding: 3rem 0;
+  padding: 3rem 2rem;
   align-items: center;
 
 }
