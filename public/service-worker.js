@@ -9,7 +9,7 @@ const assets = [
   "/css/first-fold.css",
   "/img/article-one.jpg",
   "/img/article-two.jpg",
-  "/img/homepage-header.jpg",
+  // "/img/homepage-header.jpg",
 ];
 
 // installed event
