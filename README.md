@@ -6,9 +6,9 @@ In my <a href="https://github.com/sreen020/NBA-WEBAPP" target="_blank">previous 
 I (user) want to have an overview of all played games. I like to talk about game results with other people. When I’m in a metro or plane I don’t have an internet connection to see the results, I want to select which games or teams I want to see without internet connection.
 
 **Screenshots app:** <br>
-<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-games.png" width="300">
-<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-game.png" width="300">
-<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-favo.png" width="300">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-games.png" width="260">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-game.png" width="260">
+<img src="https://github.com/sreen020/progressive-web-apps-2021/blob/master/public/img/github-images/screenshot-favo.png" width="260">
 
 Getting interested? Take a look!
 
